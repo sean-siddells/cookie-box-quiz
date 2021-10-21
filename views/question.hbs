@@ -1,13 +1,24 @@
-<form action="/question/{{id}}" method="post">
-<label>{{question}}</label>
+
+<div>
+<div>
+    <br>
+    <br>
+    <br>
+    <br>
+<center>
+<b><form action="/question/{{id}}" method="post" class="quest"></b>
+<h3>{{question}}</h3>
 <br>
+<input type="radio" name="answers"> {{choice.a}}
 <br>
-<input type="radio" name="{{choice.a}}" > {{choice.a}}
+<input type="radio" name="answers" > {{choice.b}}
 <br>
-<input type="radio" name="{{choice.b}}" > {{choice.b}}
+<input type="radio" name="answers" > {{choice.c}}
 <br>
-<input type="radio" name="{{choice.c}}" > {{choice.c}}
-<br>
-<input type="radio" name="{{choice.d}}" > {{choice.d}}
+<input type="radio" name="answers" > {{choice.d}}
 <br>
 </form>
+<img src ="/images/quizguy.png" class="guy">
+</center>
+</div>
+</div>
