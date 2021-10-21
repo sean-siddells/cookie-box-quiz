@@ -1,22 +1,85 @@
 {
-    "questions": [
-        {
-            "Question1": "Your partner enters the room in a new outfit, they ask you how they look, what is your response?",
-            "Choice1": {
-                "Answer A": " Wowoweewow!",
-                "Answer B": "Triple airhorn honk",
-                "Option C": "I think it would look better on the floor baby. Rrraaooow!",
-                "Option D": "This is acceptable",
-            },
-            {
-                "Question2": "A clown stands before you, wearing your fathers clothes. He prophesises your death in 7 years. How does he say you die?"
-            "Choice2": [
-            
-                    "Answer A": " Wowoweewow!",
-                    "Answer B": "Triple airhorn honk",
-                    "Option C": "I think it would look better on the floor baby. Rrraaooow!",
-                    "Option D": "This is acceptable",
-            ]
-            },
-            
+    "questions": {
+        "one": {
+            "question": "Your partner enters the room in a new outfit, they ask you how they look, what is your response?",
+            "choice": {
+                "a": "Wowoweewow!",
+                "b": "Triple airhorn honk.",
+                "c": "I think it would look better on the floor baby. Rrraaooow!",
+                "d": "This is acceptable."
+            }
+        },
+        "two": {
+            "question": "A clown stands before you, wearing your fathers clothes. He prophesises your death in 7 years. How does he say you die?",
+            "choice": {
+                "a": "He says it softly, and sadly. But gently.",
+                "b": "Got hit by a steam roller.",
+                "c": "Zooming too fast.",
+                "d": "A skydiving accident. The sexy kind."
+            }
+        },
+        "three": {
+            "question": "You are trapped in a room with a bear, a kiddie pool filled with Jello, the MP for Edinburgh Central, and a banana that may, or may not be sentient. What do you do?",
+            "choice": {
+                "a": "Get naked and start partying. Yeah baby!",
+                "b": "Quickly, without second guessing",
+                "c": "Make a random facial expression.",
+                "d": "Very sweaty, very overwhelmed."
+            }
+        },
+        "four": {
+            "question": "You are trapped in a room with a bear, a kiddie pool filled with Jello, the MP for Edinburgh Central, and a banana that may, or may not be sentient. What do you do?",
+            "choice": {
+                "a": "Test the sentience of the banana.",
+                "b": "Eat all the Jello.",
+                "c": "Twerk aggresively.",
+                "d": "Sounds like my kind of party. Groovy!"
+            }
+        },
+        "five": {
+            "question": "What is the weirdest thing you have seen in someone else’s home?",
+            "choice": {
+                "a": "Chucky the Doll.",
+                "b": "My own reflection.",
+                "c": "They had their own minaturised clones. Really not my bag",
+                "d": "The void."
+            }
+        },
+        "six": {
+            "question": "You are stranded on a desert island, you can only eat one food. What is it?",
+            "choice": {
+                "a": "Chippies.",
+                "b": "Bangers and mash. Yeah!",
+                "c": "Nutrient paste.",
+                "d": "Cheesecake."
+            }
+        },
+        "seven": {
+            "question": "You are creating a new secret order to begin your plans of world domination. What do you name it?",
+            "choice": {
+                "a": "The Groovy Brethern of the Beast with Two Backs.",
+                "b": "The Jubilant Underground.",
+                "c": "Excelsior!",
+                "d": "Amphibian Overlords"
+            }
+        },
+        "eight": {
+            "question": "Your time has come and Death stands before you. He challenges you, a game for your life. What game do you play?",
+            "choice": {
+                "a": "Conways Game of Life.",
+                "b": "UNO.",
+                "c": "Tekken tag.",
+                "d": "Blackjack, I like to live dangerously."
+            }
+        },
+        "nine": {
+            "question": "If you could be any living person for a day, who do you choose?",
+            "choice": {
+                "a": "Yes",
+                "b": "Bill Hader",
+                "c": "Dan Carter",
+                "d": "I’d choose me of course. Or Hugh Hefner."
+            }
         }
+    }
+}
