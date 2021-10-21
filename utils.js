@@ -34,7 +34,7 @@ function writeData(dataFile, data, callback) {
             return
         }
         // Manipulate the data to just write the parts we need
-        
+
     })
     const filename = path.join(__dirname, dataFile)
     fs.writeFile(filename, JSON.stringify(data, null, 2), 'utf-8', (err, contents) => {
