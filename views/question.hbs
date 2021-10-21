@@ -1,6 +1,13 @@
 <form action="/question/{{id}}" method="post">
-<input type="radio" name="" id="">
-<input type="radio" name="" id="">
-<input type="radio" name="" id="">
-<input type="radio" name="" id="">
+<label>{{question}}</label>
+<br>
+<br>
+<input type="radio" name="{{choice.a}}" > {{choice.a}}
+<br>
+<input type="radio" name="{{choice.b}}" > {{choice.b}}
+<br>
+<input type="radio" name="{{choice.c}}" > {{choice.c}}
+<br>
+<input type="radio" name="{{choice.d}}" > {{choice.d}}
+<br>
 </form>
