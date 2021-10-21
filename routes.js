@@ -1,5 +1,5 @@
-const server = require('server')
-const hbs = require('hbs')
+const express = require('express')
+const router = express.Router()
 
 
 module.exports = router
