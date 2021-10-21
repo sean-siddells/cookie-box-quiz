@@ -6,6 +6,11 @@ const router = express.Router()
 
 module.exports = router
 
+router.get('/', (req, res) => {
+  console.log('hi this is post req')
+  res.redirect('/question/1')
+})
+
 router.get('/:id', (req,res) => {
     getData('data.json', (err, questionData) => {
         if (err) {
@@ -16,7 +21,6 @@ router.get('/:id', (req,res) => {
         res.render('question', viewData)
   })
 })
-
 
 
 
