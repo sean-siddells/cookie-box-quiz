@@ -1,6 +1,18 @@
-body.body-content{
+h1.body-content1{
     font-family: 'Comic Neue', cursive;
     font-size: 65px;
     text-align: center;
     background-color:#ffffff;
+}
+img.photo-team1{
+    max-height: 35em;
+}
+img.photo-team2{
+    max-height: 35em;
+}
+a.nav-1{
+    font-family: 'Comic Neue', cursive;
+    font-size: 45px;
+    text-decoration: none;
+    color:black;
 }
