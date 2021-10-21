@@ -1,0 +1,47 @@
+{ 
+    "persons": [
+        {
+            "id": 1,
+            "name": "Chandler"
+        },
+        {
+            "id": 2,
+            "name": "Crazy Frog"
+        },
+        {
+            "id": 3,
+            "name": "Austin Powers"
+        },
+        {
+            "id": 4,
+            "name": "Glad0s"
+        },
+        {
+            "id": 5,
+            "name": "Helen Mirren"
+        }
+    ],
+    "questions": [
+        {
+            "question": "Your partner enters the room in a new outfit, they ask you how they look, what is your response?",
+            "answers": [
+                {
+                    "person": 1,
+                    "answer": "Wowoweewow!"
+                },
+                {
+                    "person": 2,
+                    "answer": "Triple airhorn honk"
+                },
+                {
+                    "person": 3,
+                    "answer": "I think it would look better on the floor baby. Rrraaooow!"
+                },
+                {
+                    "person": 4,
+                    "answer": "This is acceptable"
+                }
+            ]
+        }
+    ]
+}
