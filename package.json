@@ -1,0 +1,37 @@
+{
+  "name": "cookie-box-quiz",
+  "version": "1.0.0",
+  "description": "This is team Hendricks' quiz!",
+  "main": "index.js",
+  "author": "Team Hendricks",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index --ignore data.json",
+    "test": "jest --watchAll"
+  },
+  "homepage": "https://github.com/sean-siddells/cookie-box-quiz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sean-siddells/cookie-box-quiz"
+  },
+  "bugs": {
+    "url": "https://github.com/sean-siddells/cookie-box-quiz/issues"
+  },
+  "jest": {
+    "watchPathIgnorePatterns": [
+      "data.json"
+    ]
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
