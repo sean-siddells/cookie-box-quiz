@@ -10,9 +10,25 @@ img.photo-team1{
 img.photo-team2{
     max-height: 35em;
 }
+img.guy{
+    max-height:15em;
+}
 a.nav-1{
     font-family: 'Comic Neue', cursive;
     font-size: 45px;
     text-decoration: none;
+    border-color: black;
+    color: black;
+    border:2px;
+    border-style: solid;
+    margin-top: 75%;
+
+}
+form.quest{
+    font-family: 'Comic Neue', cursive;
+    font-size: 25px;
     color:black;
+}
+#button{
+    margin-top: 15em;
 }
