@@ -13,6 +13,9 @@ img.photo-team2{
 img.guy{
     max-height:15em;
 }
+img.outcome{
+    max-height: 30em
+}
 a.nav-1{
     font-family: 'Comic Neue', cursive;
     font-size: 45px;
