@@ -22,3 +22,13 @@ server.get('/', (req, res) => {
   res.render('home')
 })
 
+server.get('/outcome', (req, res) => {
+  getData('person.json', (err, personData) => {
+    if (err) {
+      res.status(500).send('Whoops! Somebody stuffed')
+      return
+    }
+    const viewData = personData.persons[4]
+    res.render('outcome', viewData)
+  })
+})
