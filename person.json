@@ -3,27 +3,27 @@
         {
             "id": 1,
             "name": "Chandler",
-            "img": "/public/images/Chandler.png"
+            "img": "/images/Chandler.png"
         },
         {
             "id": 2,
             "name": "Crazy Frog",
-            "img": "/public/images/Crazyfrog.png"
+            "img": "/images/Crazyfrog.png"
         },
         {
             "id": 3,
             "name": "Austin Powers",
-            "img": "/public/images/Austin.png"
+            "img": "/images/Austin.png"
         },
         {
             "id": 4,
             "name": "Glad0s",
-            "img": "/public/images/Glad0s.png"
+            "img": "/images/Glad0s.png"
         },
         {
             "id": 5,
             "name": "Helen Mirren",
-            "img": "/public/images/helen.png"
+            "img": "/images/helen.png"
         }
     ]
 }
