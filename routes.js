@@ -32,16 +32,18 @@ router.get('/:id', (req,res) => {
 
 
 router.post('/:id', (req, res) => {
-  getData('data.json', (err, questionData) => {
+  getData('answers.json', (err, questionData) => {
     if (err) {
       res.status(500).send('Whoops! Somebody stuffed up. One sec!')
       return
     }
-    console.log(req.params.id)
     const nextId = parseInt(req.params.id ) + 1
-    const viewData = questionData.questions.find(question => question.id > parseInt(req.params.id))
     console.log(req.body.answers);
-    const newData = questionData.questions.find(question => question.id === parseInt(req.params.id))
+
+
+    console.log ('questionData: ', questionData)
+    const newArr = [...questionData.answers, req.body.answers]
+    const newData = {answers: newArr}
     writeData('answers.json', newData, (err) => {
       if (err) {
         res.status(500).send('Whoops! Somebody stuffed')
@@ -49,6 +51,9 @@ router.post('/:id', (req, res) => {
       }
     })
     console.log('We did it!')
+    if (nextId > 9) {
+
+    }
     res.redirect(`/question/${nextId}`)
   })
 
