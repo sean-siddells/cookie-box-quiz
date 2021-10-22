@@ -17,7 +17,7 @@ img.guy{
     max-height:15em;
 }
 img.outcome{
-    max-height: 30em
+    max-height: 20em
 }
 a.nav-1{
     font-family: 'Comic Neue', cursive;
@@ -31,6 +31,11 @@ a.nav-1{
     background-color: rgb(255, 227, 101);
 }
 form.quest{
+    font-family: 'Comic Neue', cursive;
+    font-size: 25px;
+    color:black;
+}
+p.result{
     font-family: 'Comic Neue', cursive;
     font-size: 25px;
     color:black;
