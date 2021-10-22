@@ -1,8 +1,11 @@
+body {
+    background-color:#93aec0;
+}
+
 h1.body-content1{
     font-family: 'Comic Neue', cursive;
     font-size: 65px;
     text-align: center;
-    background-color:#ffffff;
 }
 img.photo-team1{
     max-height: 35em;
@@ -25,7 +28,7 @@ a.nav-1{
     border:2px;
     border-style: solid;
     margin-top: 75%;
-
+    background-color: rgb(255, 227, 101);
 }
 form.quest{
     font-family: 'Comic Neue', cursive;
@@ -33,5 +36,5 @@ form.quest{
     color:black;
 }
 #button{
-    margin-top: 15em;
+    margin-top: 5em;
 }
