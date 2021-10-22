@@ -4,39 +4,39 @@
             "question": "Your partner enters the room in a new outfit, they ask you how they look, what is your response?",
             "choice": {
                 "a": "Wowoweewow!",
-                "b": "Triple airhorn honk.",
+                "b": "Triple airhorn honk",
                 "c": "I think it would look better on the floor baby. Rrraaooow!",
-                "d": "This is acceptable."
+                "d": "This is acceptable"
             },
             "id": 1
         },
         {
             "question": "A clown stands before you, wearing your fathers clothes. He prophesises your death in 7 years. How does he say you die?",
             "choice": {
-                "a": "He says it softly, and sadly. But gently.",
-                "b": "Got hit by a steam roller.",
-                "c": "Zooming too fast.",
-                "d": "A skydiving accident. The sexy kind."
+                "a": "Got hit by a steam roller",
+                "b": "Zooming too fast",
+                "c": "A skydiving accident. The sexy kind",
+                "d": "He says it softly, and sadly. But gently"
             },
             "id": 2
         },
         {
             "question": "Everyone you love stands before you, it’s a surprise birthday! How do you react?",
             "choice": {
-                "a": "Get naked and start partying. Yeah baby!",
-                "b": "Quickly, without second guessing",
-                "c": "Make a random facial expression.",
-                "d": "Very sweaty, very overwhelmed."
+                "a": "Make a random facial expression",
+                "b": "Very sweaty, very overwhelmed",
+                "c": "Get naked and start partying. Yeah!",
+                "d": "Quickly, without second guessing"
             },
             "id": 3
         },
         {
             "question": "You are trapped in a room with a bear, a kiddie pool filled with Jello, the MP for Edinburgh Central, and a banana that may, or may not be sentient. What do you do?",
             "choice": {
-                "a": "Test the sentience of the banana.",
-                "b": "Eat all the Jello.",
-                "c": "Twerk aggressively.",
-                "d": "Sounds like my kind of party. Groovy!"
+                "a": "Eat all the Jello",
+                "b": "Twerk",
+                "c": "Sounds like my kind of party. Groovy!",
+                "d": "Test the sentience of the banana"
             },
             "id": 4
         },
@@ -53,40 +53,40 @@
         {
             "question": "You are stranded on a desert island, you can only eat one food. What is it?",
             "choice": {
-                "a": "Chippies.",
-                "b": "Bangers and mash. Yeah!",
-                "c": "Nutrient paste.",
-                "d": "Cheesecake."
+                "a": "Cheesecake",
+                "b": "Chippies",
+                "c": "Bangers and mash. Yeah!",
+                "d": "Nutrient paste"
             },
             "id": 6
         },
         {
             "question": "You are creating a new secret order to begin your plans of world domination. What do you name it?",
             "choice": {
-                "a": "The Groovy Brethern of the Beast with Two Backs.",
-                "b": "The Jubilant Underground.",
-                "c": "Excelsior!",
-                "d": "Amphibian Overlords"
+                "a": "Excelsior!",
+                "b": " ~AmphibianOverlords~",
+                "c": "The Groovy Brethern of the Beast with Two Backs",
+                "d": "The Jubilant Underground"
             },
             "id": 7
         },
         {
             "question": "Your time has come and Death stands before you. He challenges you, a game for your life. What game do you play?",
             "choice": {
-                "a": "Conways Game of Life.",
-                "b": "UNO.",
-                "c": "Tekken tag.",
-                "d": "Blackjack, I like to live dangerously."
+                "a": "Uno",
+                "b": "Tekken tag",
+                "c": "Blackjack, I like to live dangerously",
+                "d": "Conways Game of Life"
             },
             "id": 8
         },
         {
             "question": "If you could be any living person for a day, who do you choose?",
             "choice": {
-                "a": "Yes",
-                "b": "Bill Hader",
-                "c": "Dan Carter",
-                "d": "I’d choose me of course. Or Hugh Hefner."
+                "a": "Bill Hader",
+                "b": "Dan Carter",
+                "c": "I'd choose me of course. Or Hugh Hefner",
+                "d": "Yes"
             },
             "id": 9
         }

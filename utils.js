@@ -28,14 +28,6 @@ function getData(dataFile, callback) {
 
 // Function for editing the JSON data file
 function writeData(dataFile, data, callback) {
-    getData(dataFile, (err, data) => {
-        if (err) {
-            res.status(500).send('Whoops! Somebody stuffed up. Hold on one sec!')
-            return
-        }
-        // Manipulate the data to just write the parts we need
-
-    })
     const filename = path.join(__dirname, dataFile)
     fs.writeFile(filename, JSON.stringify(data, null, 2), 'utf-8', (err, contents) => {
         if (err) {
