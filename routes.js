@@ -6,10 +6,18 @@ const router = express.Router()
 
 module.exports = router
 
-router.get('/', (req, res) => {
-  console.log('hi this is post req')
-  res.redirect('/question/1')
-})
+// router.post('/:id', (req, res) => {
+//   getData('data.json', (err, questionData) => {
+//     if (err) {
+//       res.status(500).send('Whoops! Somebody stuffed')
+//       return
+//     }
+
+//     const initID = 0
+//     const viewData = questionData.questions.find(question => question.id.toString() > initID)
+//     res.render('question', viewData)
+//   })
+// })
 
 router.get('/:id', (req,res) => {
     getData('data.json', (err, questionData) => {
@@ -21,6 +29,33 @@ router.get('/:id', (req,res) => {
         res.render('question', viewData)
   })
 })
+
+
+router.post('/:id', (req, res) => {
+  getData('data.json', (err, questionData) => {
+    if (err) {
+      res.status(500).send('Whoops! Somebody stuffed up. One sec!')
+      return
+    }
+    console.log(req.params.id)
+    const nextId = parseInt(req.params.id ) + 1
+    const viewData = questionData.questions.find(question => question.id > parseInt(req.params.id))
+    console.log(req.body.answers);
+    const newData = questionData.questions.find(question => question.id === parseInt(req.params.id))
+    writeData('answers.json', newData, (err) => {
+      if (err) {
+        res.status(500).send('Whoops! Somebody stuffed')
+        return
+      }
+    })
+    console.log('We did it!')
+    res.redirect(`/question/${nextId}`)
+  })
+
+})
+
+
+
 
 
 

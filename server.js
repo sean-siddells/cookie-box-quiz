@@ -2,7 +2,7 @@ const express = require('express')
 const hbs = require('express-handlebars')
 const routes = require('./routes')
 const server = express()
-
+const { getData } = require('./utils')
 module.exports = server
 
 // Server config
