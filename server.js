@@ -2,7 +2,7 @@ const express = require('express')
 const hbs = require('express-handlebars')
 const routes = require('./routes')
 const server = express()
-const { getData } = require('./utils')
+const { getData, writeData, getAnswers } = require('./utils')
 module.exports = server
 
 // Server config
@@ -19,16 +19,36 @@ server.use('/question', routes)
 // home route config
 
 server.get('/', (req, res) => {
-  res.render('home')
-})
-
-server.get('/outcome', (req, res) => {
-  getData('person.json', (err, personData) => {
+  const newData = { answers: [] }
+  writeData('answers.json', newData, (err) => {
     if (err) {
       res.status(500).send('Whoops! Somebody stuffed')
       return
     }
-    const viewData = personData.persons[4]
-    res.render('outcome', viewData)
+  })
+  res.render('home')
+})
+
+
+server.get('/outcome', (req, res) => {
+  getData('answers.json', (err, answerData) => {
+    if (err) {
+      res.status(500).send('Whoops! Somebody stuffed up')
+      return
+    }
+    const answersTotal = getAnswers(answerData.answers)
+    console.log(answersTotal);
+    if (answersTotal !== null) {
+      getData('person.json', (err, personData) => {
+        if (err) {
+          res.status(500).send('Whoops! Somebody stuffed')
+          return
+        }
+        console.log(personData);
+        const viewData = personData.persons.filter(person => person.id === answersTotal).pop()
+        console.log(viewData);
+        res.render('outcome', viewData)
+      })
+    }
   })
 })

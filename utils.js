@@ -3,7 +3,8 @@ const path = require('path')
 
 module.exports = {
     getData,
-    writeData
+    writeData,
+    getAnswers
 }
 
 // Function for reading JSON
@@ -43,4 +44,8 @@ function writeData(dataFile, data, callback) {
             callback(new Error('Unable to write data file'))
         }
     })
+}
+
+function getAnswers(answers) {
+    return answers.sort((first, next) => answers.filter(answer => answer === first).length - answers.filter(answer => answer === next).length).pop()
 }
